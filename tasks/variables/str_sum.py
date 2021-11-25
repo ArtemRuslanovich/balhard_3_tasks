@@ -20,12 +20,14 @@ def str_sum(str1: str, str2: str) -> int:
     :type str1: str
 
     :param str2: второе число
-    :type str2: str
+    :type str2: str1
 
     :return: сумму чисел из строк
     :rtype: int
     """
-    result = None
+    str1 = int(str1)
+    str2 = int(str2)
+    result = str1 + str2
     return result
 
 
